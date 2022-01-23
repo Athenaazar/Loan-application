@@ -19,8 +19,8 @@ Please, feel free to contribute with comments, issues or pull requests.
 ### Technologies:
 
 - CSS
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-HTML
+-JAVASCRIPT
 
 ### Available Scripts
 
@@ -34,4 +34,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 The build is minified and the filenames include the hashes.<br />
 
 Your app is ready to be deployed!
+
+ Your site is published at https://athenaazar.github.io/Loan-application/
+
+
+
+
 
