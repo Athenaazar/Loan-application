@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lån Application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="form-content">
+            <h2>Lånekalkylator</h2>
+            <form id="loan-form" class="loan-form">
+                <label>Lån blopp</label>
+                <input type="number" id="amount" placeholder="Kr">
+
+                <label>Interest</label>
+                <input type="number" id="interest" placeholder="%">
+
+                <label>År</label>
+                <input type="number" id="years">
+
+                <button type="submit">Beräkna</button>
+            </form>
+        </div>
+
+        <h2>Beräknade resultat</h2>
+        <div class="results">
+            <div class="card-1">
+                <p id="monthlyPayment">kr</p>
+                <p class="indicators">Månads betalning</p>
+            </div>
+
+            <div class="card-2">
+                <p id="totalInterest">%</p>
+                <p class="indicators">Totalt intresse</p>
+
+            </div>
+
+            <div class="card-3">
+                <p id="totalPayment">Kr</p>
+                <p class="indicators">Totalt belopp som ska betalas</p>
+            </div>
+        </div>
+
+        <footer>
+            <span class="footer_desc">Created &#10084; by <a class="git_link" href=""
+                    target="_blank" rel="noopener">Athena</a></span>
+        </footer>
+    </div>
+
+    
+</body>
+<script src="index.js"></script>
+
+</html>

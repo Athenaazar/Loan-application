@@ -1,2 +1,4 @@
-# Loan-application
-Loan application
+# Lån application
+
+![Loan Calculator Screenshot]
+
